@@ -1,0 +1,178 @@
+*{box-sizing: border-box;}
+
+body{margin:0;}
+
+h1 a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 6.25rem;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+} 
+
+.logo{
+    flex:20%;
+    margin-left:10%;
+    text-align: left;
+}
+
+.menu{
+    flex:70%;
+    padding:1.25rem;
+}
+
+.menu a{
+    padding:1.25rem 1rem; 
+    text-decoration: none;
+}
+
+.menu a:hover{
+    border-top:0.25rem solid #180F4A;
+}
+
+#botao{
+    padding: 0.625rem 1.5625rem;
+    border-radius:0.3125rem;
+}
+
+#botao:hover{
+    border:none; 
+}
+
+
+.header{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:6.25rem;
+}
+
+.headline{
+    margin-left:10%;
+    flex:40%;
+}
+
+.headline h2{
+    padding:0;
+    margin:0;
+}
+
+.contact-btn{
+    display: inline-block;
+    padding:1.25rem;
+    border-radius:0.3125rem;    
+}
+
+.img-headline{
+    margin-right:10%;
+    flex:40%;
+    text-align:center;
+}
+.img-headline img{
+    max-width: 90%;
+}
+
+footer{
+    background: #180F4A;
+    height: 12rem;
+    margin-top:2rem;
+}
+
+.logo-rodape{
+    text-align: center;
+}
+
+.logo-rodape p em{
+    text-decoration:underline;
+}
+/*fim da primeira pagina */
+
+.header2{
+    display: flex;
+    flex-flow:row wrap;
+    padding-top:6.25rem;
+    padding-bottom: 1rem;
+}
+.headline{
+    flex:40%;
+}
+
+.headline2 h1{
+    text-align: center;
+}
+
+.headline2 h2{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.headline2 h3{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.headline2 p{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+}
+li{
+    padding-bottom: 5%;
+}
+ul{
+    list-style: none;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding:20px;
+    margin:1%;
+    border:1px solid #FF2978;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: #FF2978;
+    color:white;
+    padding:40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display:none;
+}
+
+.card:hover .texto-oculto{
+    display:block;
+}
+
+.img-centro{
+    margin-left: 23%;
+}
+
+.img-centro2{
+    margin-left: 28%;
+}
+
+#centro{
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+
